@@ -1,0 +1,20 @@
+:root{
+    --color1 : #000000;
+    --color2 : #14213D;
+    --color3 : #FCA311;
+    --color4 : #E5E5E5;
+    --color5 : #FFFFFF;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px;
+    background-color: var(--color4);
+    padding: 10px;
+}
