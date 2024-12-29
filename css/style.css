@@ -56,6 +56,12 @@ main form{
     font-size: larger;
 }
 
+main section form .email{
+    width: 28vw;
+    padding: 4px;
+    border-radius: 8px;
+}
+
 .submit{
     background-color: var(--color3);
     border: 2px;
@@ -67,6 +73,10 @@ main form{
 .submit:hover{
     color: var(--color2);
     cursor: pointer;
+}
+
+#resultCont div::first-letter{
+    text-transform: uppercase;
 }
 
 footer {

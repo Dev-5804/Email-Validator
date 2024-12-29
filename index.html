@@ -20,26 +20,23 @@
         </nav>
     </header>
     <main>
-        <h2>Enter details to validate</h2>
-        <form action="/submit" method="post">
-            <label for="name">Name : </label>
-            <input type="text">
-            <br><br>
+        <section>
+                    <h2>Enter details to validate</h2>
+                    <form action="/submit" method="post">                    
+                        <label for="email">Email : </label>
+                        <input placeholder="Enter Your Email Here" type="text"  id="UserEmail" class="email" required>
+                        <br><br>
+                    
+                        <input type="submit" id="submitbtn" class="submit" value="Submit">
+                        <br><br>
+                    </form>
+        </section>
+        <hr>
+        <section class="container">
+                <h1>Result : </h1>
+                <div id="resultCont"></div>
 
-            <label for="Email">Email : </label>
-            <input type="email">
-            <br><br>
-
-            <label for="Gender">Gender : </label>
-            <input type="radio" id="male" name="Gender">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="Gender">
-            <label for="female">Female</label>
-            <br><br>
-
-            <input type="submit" class="submit" value="Submit">
-            <br><br>
-        </form>
+        </section>
     </main>
     <footer>
         <p>Copyright abc.xyz | All rights reserved</p>
