@@ -2,8 +2,8 @@ let result = {
 tag: "",
 free: true,
 role: false,
-user: "mrp982611",
-email: "mrp982611@gmail.com",
+user: "xyz",
+email: "xyz@gmail.com",
 score: 0.64,
 state: "deliverable",
 domain: "gmail.com",
@@ -19,7 +19,7 @@ format_valid: true,
 submitbtn.addEventListener("click", async (e) => {
     e.preventDefault();
     console.log("clicked");
-    let key = "ema_live_a4KUiLFH5tMxx2bGk3RXIqoNmrJpZsbyh5cDug9v";
+    let key = "Enter your key over here";
     let email = document.getElementById("UserEmail").value;
     let url = `https://api.emailvalidation.io/v1/info?apikey=${key}&email=${email}`
     let res = await fetch(url);
